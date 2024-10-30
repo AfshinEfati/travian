@@ -1,4 +1,4 @@
-# Your Project Name
+# Travian Map Scanner
 
 A brief description of your project, explaining its purpose, goals, and any unique aspects.
 
@@ -6,9 +6,6 @@ A brief description of your project, explaining its purpose, goals, and any uniq
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Features](#features)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
