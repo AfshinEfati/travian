@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Farm List Extension",
+  "version": "1.0",
+  "description": "Automatically create farm lists and add natars based on criteria.",
+  "permissions": ["storage", "activeTab", "scripting"],
+  "host_permissions": ["https://*.speedtra.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.speedtra.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
