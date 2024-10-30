@@ -19,8 +19,8 @@ A brief description of your project, explaining its purpose, goals, and any uniq
 1.  **Clone the repository:**
 
     ```bash
-    git clone <repository-url>
-    cd <project-directory>
+    git clone https://github.com/AfshinEfati/travian.git
+    cd travian
     ```
 
 2.  **Create and activate a virtual environment:**
